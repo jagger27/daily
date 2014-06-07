@@ -4,29 +4,22 @@ header {
   /*background: rgba(255,255,255, 0.1);*/
 }
 .tdj-splash {
+  position: relative;
+  height: 80vh;
   padding-top: 40px;
   background: url(./splash.jpg) top center no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
-@media (max-width: 768px) {
-  .tdj-splash {
-    background-size: 250%;
-  }
-}
-
-.slogan {
-  color: #FAFAFA;
-}
 .tdj-navbar {
   vertical-align: middle;
 }
 .tdj-nav a {
-  margin-top: 13px;
+  margin-top: 11px;
   margin-left: 10px;
   color: #FFF;
-  font-family: "Proxima Nova", "Proxima Nova RG", sans-serif;
-  font-size: 1.42em;
+  font-family: "Roboto", "Proxima Nova", "Proxima Nova RG", sans-serif;
+  font-size: 1.3em;
 }
 /* nav-pill resets */
 .tdj-nav a:hover, .tdj-nav a:active {
@@ -42,8 +35,28 @@ img.tdj-logo:hover {
   background: rgba(0,0,0,0.05);
 }
 
+.slogan-container {
+  position: absolute;
+  width: 100%;
+  bottom: 7%;
+}
+.slogan {
+  color: #FAFAFA;
+  text-align: center;
+  font-family: "Proxima Nova", "Proxima Nova RG", sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+
+}
+
+.slogan-bg {
+  padding: 12px 32px;
+  background-color: rgba(0,0,0,0.13);
+}
+
 .filler {
-  height: 1100px;
 }
 
 hr {
