@@ -22,7 +22,10 @@ header {
   font-size: 1.3em;
 }
 /* nav-pill resets */
-.tdj-nav a:hover, .tdj-nav a:active {
+.tdj-nav a:hover, 
+.tdj-nav a:active, 
+.tdj-nav a:visited,
+.tdj-nav a:focus {
   border-radius: 0;
   background: rgba(0,0,0,0.05) !important;
 }
@@ -57,11 +60,28 @@ img.tdj-logo:hover {
 }
 
 .newsletter-container {
-  margin: 30px auto;
+  margin: 50px auto;
   min-height: 40px;
+  width: 310px;
+}
+
+.newsletter-heading {
+  text-align: center;
+  font-family: "Proxima Nova", "Proxima Nova RG", sans-serif;
 }
 
 .filler {
+}
+
+footer {
+  margin-top: 20px;
+  padding-top: 18px;
+  height: 60px;
+  background-color: #333;   
+}
+footer p {
+  text-align: center;
+  color: #FAFAFA;
 }
 
 hr {
