@@ -56,6 +56,11 @@ img.tdj-logo:hover {
   background-color: rgba(0,0,0,0.13);
 }
 
+.newsletter-container {
+  margin: 30px auto;
+  min-height: 40px;
+}
+
 .filler {
 }
 
